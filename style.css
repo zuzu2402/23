@@ -1,0 +1,126 @@
+.img1 {
+  height: 700px;
+  width: 100%;
+  padding-top: 20px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.content h1 {
+  font-size: 43px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.content button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 160px; 
+  margin-top: 30px;
+}
+.sign-up {
+  height: 41px;
+  width: 95px;
+  font-size: 22px;
+  background-color: #ffcd1f;
+  border-radius: 10px;
+  border-color: aqua;
+ 
+}
+.log-in {
+  height: 41px;
+  width: 95px;
+  border-color: #fff;
+  border-radius: 10px;
+  box-shadow: none;
+  font-size: 20px;
+}
+.log-in:hover {
+  cursor: pointer;
+  background-color: white;
+}
+.sign-up:hover {
+  cursor: pointer;
+  background-color: rgb(220, 235, 157);
+}
+.butoni {
+  
+  display: flex;
+  float: right;
+}
+.boom:hover {
+background-color: blue;
+}
+.container {
+  display: flex;
+  
+  
+}
+form {
+  width: 1050px;
+  height: 35px;
+  display: flex;
+  margin-left: 300px;
+  padding-top: 24px;
+}
+form input{
+  flex: 1;
+  border: none;
+  outline: nones;
+  border-radius: 30px;
+  font-size: 18px;
+  padding-left: 30px;
+}
+nav {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.logo{
+  color: blue;
+  font-size: 45px;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+  padding: 20px;
+}
+li {
+  list-style: none;
+}
+a {
+  display: flex;
+}
+.a11 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
